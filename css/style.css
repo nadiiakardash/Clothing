@@ -4312,7 +4312,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   .header__inner {
     width: auto;
     max-width: 100%;
-    margin-top: auto;
+    margin-top: 5px;
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -4341,13 +4341,13 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     border-top: 1px solid #1f1f1f;
   }
 
+  .header__search {
+    margin-bottom: 20px;
+  }
+
   .header__search,
   .header__search--closed {
-    -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3;
     width: 100%;
-    padding-top: 15px;
   }
 
   .header__search .header__input,
