@@ -2509,11 +2509,12 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 
 .header__input {
   width: 200px;
-  padding: 7px 5px;
+  padding: 7px 23px 7px 5px;
   margin-left: 5px;
   border: 0;
   border-bottom: 1px solid #1f1f1f;
   outline: none;
+  font-size: 14px;
   -webkit-transition: width ease-in-out 0.2s;
   -o-transition: width ease-in-out 0.2s;
   transition: width ease-in-out 0.2s;
@@ -2544,22 +2545,26 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 }
 
 .header__input::-webkit-input-placeholder {
-  color: inherit;
+  color: black;
+  font-size: 14px;
   font-weight: inherit;
 }
 
 .header__input:-moz-placeholder {
-  color: inherit;
+  color: black;
+  font-size: 14px;
   font-weight: inherit;
 }
 
 .header__input::-moz-placeholder {
-  color: inherit;
+  color: black;
+  font-size: 14px;
   font-weight: inherit;
 }
 
 .header__input:-ms-input-placeholder {
-  color: inherit;
+  color: black;
+  font-size: 14px;
   font-weight: inherit;
 }
 
@@ -4269,9 +4274,9 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   }
 
   .header__nav-box {
-    position: fixed;
-    z-index: 1000000;
-    top: 60px;
+    position: absolute;
+    z-index: 99;
+    top: 100%;
     left: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -4349,6 +4354,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     width: 87%;
     padding: 7px 5px;
     margin-left: 0;
+    font-size: 18px;
     border-bottom: 1px solid #1f1f1f;
   }
 
