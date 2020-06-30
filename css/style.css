@@ -4195,6 +4195,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   }
 
   .header__wrapper {
+    position: static;
     margin-bottom: 0;
   }
 
@@ -4276,7 +4277,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   .header__nav-box {
     position: absolute;
     z-index: 99;
-    top: 100%;
+    top: 61px;
     left: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
