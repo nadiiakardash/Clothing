@@ -4262,9 +4262,9 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   }
 
   .header__nav-box {
-    position: absolute;
-    z-index: 10;
-    top: 100%;
+    position: fixed;
+    z-index: 1000000;
+    top: 60px;
     left: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
