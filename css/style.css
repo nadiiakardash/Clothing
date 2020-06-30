@@ -4178,6 +4178,8 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   }
 
   .header {
+    position: relative;
+    z-index: 1000;
     padding-top: 0;
     margin-bottom: 15px;
   }
@@ -4273,8 +4275,9 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     -ms-flex-line-pack: justify;
         align-content: space-between;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     max-width: 100%;
+    padding-bottom: 130px;
     background-color: white;
     opacity: 1;
     -webkit-transition: 0.5s ease;
@@ -4512,6 +4515,11 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     padding-bottom: 0;
     padding-right: 10px;
     border-bottom: 0;
+  }
+
+  .main {
+    position: relative;
+    z-index: 500;
   }
 
   .main__number {
