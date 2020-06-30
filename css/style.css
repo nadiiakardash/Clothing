@@ -4182,6 +4182,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     z-index: 1000;
     padding-top: 0;
     margin-bottom: 15px;
+    background-color: white;
   }
 
   .header--closed {
