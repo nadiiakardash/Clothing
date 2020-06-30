@@ -4347,6 +4347,11 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 
   .header__search,
   .header__search--closed {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     width: 100%;
   }
 
@@ -4399,9 +4404,13 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   }
 
   .header__search-button {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
     width: 25px;
     height: 25px;
-    margin-right: 10px;
+    margin-right: 0;
+    margin-left: 10px;
   }
 
   .header__icon-search {
