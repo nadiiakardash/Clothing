@@ -4184,6 +4184,10 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     margin-bottom: 15px;
   }
 
+  .header--closed {
+    height: 100vh;
+  }
+
   .header__wrapper {
     margin-bottom: 0;
   }
