@@ -3402,6 +3402,33 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
           transform: translateX(-50%);
 }
 
+.site-map {
+  width: 320px;
+  padding: 0;
+  margin: 0;
+  text-indent: 0;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 35px;
+  line-height: 42px;
+  font-weight: bold;
+  color: #1f1f1f;
+}
+
+.site-map__item {
+  outline: none;
+}
+
+.site-map__item:hover,
+.site-map__item:focus {
+  opacity: 60%;
+}
+
+.site-map__item:active {
+  opacity: 30%;
+}
+
 .main {
   margin-bottom: 102px;
   overflow: hidden;
