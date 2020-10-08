@@ -2582,6 +2582,10 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   letter-spacing: 2px;
 }
 
+.button--button {
+  background-color: transparent;
+}
+
 .button::before {
   content: "";
   position: absolute;
@@ -2611,6 +2615,22 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 
 .button:active {
   opacity: 30%;
+}
+
+.button--show-more {
+  margin-bottom: 45px;
+}
+
+.button-show-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
 }
 
 .title {
@@ -3292,6 +3312,23 @@ body.news-body .header--pages {
 .subtitle__pseudo--contacts::before {
   left: -12px;
   bottom: -8px;
+}
+
+.subtitle__link {
+  -webkit-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.subtitle__link {
+  outline: none;
+}
+
+.subtitle__link:hover,
+.subtitle__link:focus {
+  opacity: 60%;
 }
 
 .pagination {
@@ -4042,6 +4079,19 @@ body.news-body .header--pages {
 
 .gallery .tns-liveregion {
   display: none;
+}
+
+.gallery .gallery__count,
+.gallery .gallery__max {
+  display: inline-block;
+}
+
+.gallery .gallery__count {
+  margin-right: 5px;
+}
+
+.gallery .gallery__max {
+  margin-left: 5px;
 }
 
 .gallery__list {
@@ -5089,6 +5139,26 @@ body.news-body .header--pages {
   font-weight: normal;
 }
 
+.favorites__table-quantity .quantity__item {
+  border-color: #aaa;
+}
+
+.favorites__submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
 .favorites__sizes {
   margin-top: 0;
   margin-bottom: 0;
@@ -5096,6 +5166,63 @@ body.news-body .header--pages {
   line-height: 36px;
   font-weight: 800;
   color: #aaaaaa;
+}
+
+.favorites__input {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  outline: 0;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.favorites__input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.favorites__input:focus:-moz-placeholder {
+  opacity: 0;
+  -moz-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.favorites__input:focus::-moz-placeholder {
+  opacity: 0;
+  -moz-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.favorites__input:focus:-ms-input-placeholder {
+  opacity: 0;
+  -ms-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.favorites__input::-webkit-input-placeholder {
+  color: #aaaaaa;
+}
+
+.favorites__input:-moz-placeholder {
+  color: #aaaaaa;
+}
+
+.favorites__input::-moz-placeholder {
+  color: #aaaaaa;
+}
+
+.favorites__input:-ms-input-placeholder {
+  color: #aaaaaa;
+}
+
+.favorites__button {
+  margin-bottom: 0;
 }
 
 .favorites__description {
@@ -5119,10 +5246,7 @@ body.news-body .header--pages {
   overflow: hidden;
 }
 
-.contacts__wrapper {
-  width: 787px;
-  margin-left: auto;
-  margin-right: auto;
+.contacts__box {
   padding-bottom: 101px;
 }
 
@@ -5359,8 +5483,18 @@ body.news-body .header--pages {
   background-image: url("../img/main/background/map.jpg");
 }
 
+.contacts__wrapper {
+  width: 787px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts__list {
+  margin-bottom: 45px;
+}
+
 .results-body .header {
-  padding-bottom: 115px;
+  padding-bottom: 23px;
 }
 
 .results-body .quantity-nav::before {
@@ -5524,6 +5658,18 @@ body.news-body .header--pages {
   padding-right: 29px;
   font-weight: bold;
   text-align: right;
+}
+
+.results__model--catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
 }
 
 .sections-body {
@@ -5750,7 +5896,7 @@ body.news-body .header--pages {
 }
 
 .statics-body .header {
-  padding-bottom: 115px;
+  padding-bottom: 26px;
 }
 
 .statics__head {
@@ -6827,12 +6973,25 @@ body.news-body .header--pages {
     right: 5px;
   }
 
+  .favorites__amount {
+    width: 58%;
+  }
+
+  .favorites__submit {
+    width: 100%;
+  }
+
   .contacts-body .header {
     margin-bottom: 25px;
   }
 
   .contacts__wrapper {
-    width: 100%;
+    width: 768px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .contacts__box {
     padding-bottom: 50px;
   }
 
@@ -6861,7 +7020,6 @@ body.news-body .header--pages {
   }
 
   .results-body .header {
-    padding-bottom: 0;
     margin-bottom: 25px;
   }
 
@@ -6952,7 +7110,6 @@ body.news-body .header--pages {
   }
 
   .statics-body .header {
-    padding-bottom: 0;
     margin-bottom: 25px;
   }
 
@@ -7084,6 +7241,10 @@ body.news-body .header--pages {
 
   .button {
     width: 100%;
+  }
+
+  .button--show-more {
+    margin-bottom: 25px;
   }
 
   .title {
@@ -7452,7 +7613,12 @@ body.news-body .header--pages {
   }
 
   .subtitle {
-    margin-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 20px;
     font-size: 14px;
     line-height: 120%;
   }
@@ -7790,8 +7956,8 @@ body.news-body .header--pages {
 
   .favorites__amount {
     width: 100%;
-    margin-bottom: 10px;
-    font-size: 14px;
+    margin-bottom: 15px;
+    font-size: 12px;
     line-height: 120%;
   }
 
@@ -7807,8 +7973,17 @@ body.news-body .header--pages {
     line-height: 120%;
   }
 
+  .favorites__button {
+    margin-bottom: 0;
+  }
+
   .contacts__wrapper {
     width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .contacts__box {
     padding-bottom: 30px;
   }
 
@@ -7949,6 +8124,10 @@ body.news-body .header--pages {
   .results__description {
     padding: 0;
     margin-bottom: 25px;
+  }
+
+  .results__model--catalog {
+    padding-left: 0;
   }
 
   .sections-body .header {
